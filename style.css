@@ -17,7 +17,6 @@ header {
 
 #logo {
     float: left;
-    /* text-align: left; */
     font-family: 'Lato', sans-serif;
     font-size: 20pt;
     display: inline-block;
@@ -44,7 +43,7 @@ li a {
 #main-title {
     display: inline-block;
     text-align: center;
-    padding: 15%;
+    padding: 10%;
     width: 100%;
 }
 
@@ -52,7 +51,7 @@ li a {
     color: white;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 15px;
 }
 
@@ -65,14 +64,15 @@ li a {
     background-color: #f4623a;
 }
 
-#main-title p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+p {
+    font-family: 'Montserrat', sans-serif;
     color: white;
     text-align: center;
     margin: 0 auto;
     width: 60%;
     padding-top: 30px;
     padding-bottom: 50px;
+    font-size: 12pt;
 }
 
 #main-title a {
@@ -89,4 +89,160 @@ li a {
     padding-top: 6px;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+#start {
+    background-color: #f4623a;
+    padding: 100px;
+    display: block;
+    text-align: center;
+}
+
+#start h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 15px;
+}
+
+#start hr {
+    border: 2px solid white;
+    text-align: center; 
+    margin: 0 auto;
+    width: 15%;
+    padding: 0%;
+    background-color: white;
+}
+
+#start a {
+    color: black;
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 10pt;
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#service {
+    padding: 10%;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25pt;
+    padding-bottom: 15px;
+}
+
+#service hr {
+    border: 2px solid #f4623a;
+    text-align: center; 
+    margin: 0 auto;
+    width: 15%;
+    padding: 0%;
+    background-color: #f4623a;
+}
+
+#service table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+th {
+    width: 25%;
+    font-size: 16pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+td {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td img {
+    width: 150px;
+    align-items: center;
+    padding: 10px;
+}
+
+#download {
+    background-color: #343a40;
+    padding: 100px;
+    display: block;
+    text-align: center;
+}
+
+#download h2 {
+    color: white;
+    padding-bottom: 50px;
+}
+
+#download a {
+    color: black;
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 10pt;
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+section hr {
+    border: 2px solid #f4623a;
+    text-align: center; 
+    margin: 0 auto;
+    width: 15%;
+    padding: 0%;
+    background-color: #f4623a;
+}
+
+section {
+    padding: 100px;
+    display: block;
+    text-align: center;
+}
+
+section p {
+    color: black;
+}
+
+section table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+section a {
+    color:  #f4623a;
+    text-decoration: none;
+}
+
+footer p {
+    color: black;
+}
+
+#photos {
+    padding: 100px;
+    display: block;
+    text-align: center;
+}
+
+#photos img {
+    width: 33.33%;
 }
